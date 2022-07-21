@@ -1,6 +1,6 @@
 .header{
     background: #1f2937;
-    padding: 12px 42px;
+    padding: 12px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,4 +20,44 @@
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.first-section{
+    background: #1f2937;
+    display: flex;
+    padding: 100px;
+    gap: 20px;
+}
+
+.first-section h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.first-section p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-section__info button{
+    background: #3882f6;
+    border-radius: 6px;
+    border: 1px solid #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 5px 15px ;
+    width: 120px;
+}
+
+.first-section__image{
+    background: #979899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-shrink: 0;
 }
