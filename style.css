@@ -61,3 +61,32 @@ a{
     width: 60%;
     flex-shrink: 0;
 }
+
+.second-section{
+    text-align: center;
+    padding: 10px 100px 50px;
+}
+
+.second-section__items{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.second-section__item{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.second-section__item-image{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.second-section__item-text{
+    margin: 0px;
+}
