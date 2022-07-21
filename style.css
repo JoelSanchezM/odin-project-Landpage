@@ -90,3 +90,31 @@ a{
 .second-section__item-text{
     margin: 0px;
 }
+
+.third-section{
+    background: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    width: 700px;
+}
+
+.quote-text{
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    font-weight: bold;
+}
